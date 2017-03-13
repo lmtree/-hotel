@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <script src="./js/flexible_css.js"></script>
+    <script src="./js/flexible.js"></script>
+    <script src="./js/iconfont.js"></script>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/one.css">
+    <link rel="stylesheet" href="./css/flex.css">
+</head>
+<body>
+<div class="main" flex="dir:top">
+    <div class="logo" flex-box="0">
+        <img src="./images/one/logo.gif">
+    </div>
+    <div class="login" flex-box="0">
+        <p><svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-login"></use>
+        </svg>
+            <input type="text" class="user" placeholder="请输入用户/手机/邮箱"></p>
+        <p><svg class="icons" aria-hidden="true">
+            <use xlink:href="#icon-password"></use>
+        </svg><input type="password" class="userpassword" placeholder="请输入密码"></p>
+        <input type="checkbox" class="checkbox">
+        <span>记住密码</span>
+        <a href="###">忘记密码?</a>
+        <p><button class="btn">登录</button></p>
+    </div>
+    <div class="anotherlogin" flex-box="1" >
+        <p>其他方式登录</p>
+        <span><svg class="app" aria-hidden="true">
+            <use xlink:href="#icon-111"></use>
+        </svg>
+            <svg class="app" aria-hidden="true">
+                <use xlink:href="#icon-wechat"></use>
+            </svg>
+            <svg class="app" aria-hidden="true">
+                <use xlink:href="#icon-sina"></use>
+            </svg></span>
+        <p class="register">立即注册</p>
+    </div>
+</div>
+</body>
+</html>

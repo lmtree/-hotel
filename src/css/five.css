@@ -1,0 +1,130 @@
+div.background {
+  width: 10rem;
+  height: 5rem;
+  background: url("../images/five/bg.gif") center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+div.scheduledetails {
+  width: 9.33333333rem;
+  height: 10.66666667rem;
+  margin-left: 0.33333333rem;
+  border-radius: 10px;
+  background: white;
+  position: absolute;
+  top: 4rem;
+  z-index: 1;
+}
+div.scheduledetails div.vertical {
+  width: 9.33333333rem;
+  height: 1rem;
+  border-bottom: 1px solid #cccccc;
+}
+div.scheduledetails div.vertical ul li.first {
+  float: left;
+  width: 3.11111111rem;
+  text-align: center;
+  line-height: 1rem;
+  border-bottom: 1px solid #21b290;
+}
+div.scheduledetails div.vertical ul li {
+  float: left;
+  width: 3.11111111rem;
+  text-align: center;
+  line-height: 1rem;
+}
+div.scheduledetails div.distance {
+  width: 9.33333333rem;
+  height: 2rem;
+  background: white;
+  border-bottom: 1px solid #cccccc;
+}
+div.scheduledetails div.distance p {
+  float: left;
+  margin-left: 0.3rem;
+  line-height: 1.3rem;
+  margin-top: 0.6rem;
+}
+div.scheduledetails div.distance img {
+  width: 7.6rem;
+  height: 1.06666667rem;
+  float: left;
+  margin-top: 0.6rem;
+  margin-left: 0.1rem;
+}
+div.scheduledetails div.time {
+  width: 9.33333333rem;
+  height: 2.5rem;
+  border-bottom: 1px solid #cccccc;
+}
+div.scheduledetails div.time p {
+  text-indent: 0.3rem;
+  line-height: 1.25rem;
+}
+div.scheduledetails div.price {
+  width: 9.33333333rem;
+  height: 2.5rem;
+  border-bottom: 1px solid #cccccc;
+}
+div.scheduledetails div.price p {
+  text-indent: 0.3rem;
+  line-height: 1.25rem;
+}
+div.scheduledetails div.search {
+  width: 9.33333333rem;
+  height: 2.66666667rem;
+}
+div.scheduledetails div.search button.search {
+  width: 9.33333333rem;
+  height: 1rem;
+  border-radius: 6px;
+  background: #ca4427;
+  color: white;
+  text-align: center;
+  margin-top: 0.83333333rem;
+}
+[data-dpr="1"] div.distance p {
+  font-size: 12px;
+}
+[data-dpr="2"] div.distance p {
+  font-size: 24px;
+}
+[data-dpr="3"] div.distance p {
+  font-size: 36px;
+}
+[data-dpr="1"] div.time p {
+  font-size: 12px;
+}
+[data-dpr="2"] div.time p {
+  font-size: 24px;
+}
+[data-dpr="3"] div.time p {
+  font-size: 36px;
+}
+[data-dpr="1"] div.price p {
+  font-size: 12px;
+}
+[data-dpr="2"] div.price p {
+  font-size: 24px;
+}
+[data-dpr="3"] div.price p {
+  font-size: 36px;
+}
+[data-dpr="1"] div.search button.search {
+  font-size: 14px;
+}
+[data-dpr="2"] div.search button.search {
+  font-size: 26px;
+}
+[data-dpr="3"] div.search button.search {
+  font-size: 50px;
+}
+[data-dpr="1"] div.vertical ul li {
+  font-size: 14px;
+}
+[data-dpr="2"] div.vertical ul li {
+  font-size: 26px;
+}
+[data-dpr="3"] div.vertical ul li {
+  font-size: 50px;
+}

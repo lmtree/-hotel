@@ -1,0 +1,171 @@
+div div.state {
+  width: 10rem;
+  height: 2rem;
+  line-height: 1rem;
+  background: white;
+}
+div div.state h1 {
+  margin-left: 0.5rem;
+}
+div div.state h1 span {
+  color: #ca4427;
+}
+div div.introduce {
+  background: #f2f2f3 ;
+}
+div div.introduce p {
+  width: 10rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  color: #21b290;
+  margin-left: 0.3rem;
+}
+div div.name {
+  width: 10rem;
+  height: 3rem;
+  background: white;
+}
+div div.name h1 {
+  margin-left: 0.5rem;
+  line-height: 1rem;
+}
+div div.name h1 span {
+  color: #525252;
+}
+div div.data {
+  border-top: 1px solid #cccccc;
+  width: 10rem;
+  height: 4rem;
+  background: white;
+}
+div div.data h1 {
+  margin-left: 0.5rem;
+  line-height: 1rem;
+}
+div div.data h1 span {
+  color: #525252;
+}
+div div.pay {
+  width: 10rem;
+  height: 1rem;
+  background: white;
+  border-top: 1px solid #cccccc;
+}
+div div.pay h1 {
+  margin-left: 0.5rem;
+  line-height: 1rem;
+}
+div div.pay h1 span {
+  color: #525252;
+}
+div div.info {
+  width: 10rem;
+  height: 3rem;
+  background: white;
+}
+div div.info h1 {
+  margin-left: 0.5rem;
+  line-height: 1rem;
+}
+div div.info h1 span {
+  color: #525252;
+}
+[data-dpr="1"] div div.name h1 {
+  font-size: 12px;
+}
+[data-dpr="2"] div div.name h1 {
+  font-size: 26px;
+}
+[data-dpr="3"] div div.name h1 {
+  font-size: 50px;
+}
+[data-dpr="1"] div div.name span {
+  font-size: 12px;
+}
+[data-dpr="2"] div div.name span {
+  font-size: 26px;
+}
+[data-dpr="3"] div div.name span {
+  font-size: 50px;
+}
+[data-dpr="1"] div div.state h1 {
+  font-size: 12px;
+}
+[data-dpr="2"] div div.state h1 {
+  font-size: 26px;
+}
+[data-dpr="3"] div div.state h1 {
+  font-size: 50px;
+}
+[data-dpr="1"] div div.state span {
+  font-size: 12px;
+}
+[data-dpr="2"] div div.state span {
+  font-size: 26px;
+}
+[data-dpr="3"] div div.state span {
+  font-size: 50px;
+}
+[data-dpr="1"] div div.introduce p {
+  font-size: 12px;
+}
+[data-dpr="2"] div div.introduce p {
+  font-size: 26px;
+}
+[data-dpr="3"] div div.introduce p {
+  font-size: 50px;
+}
+[data-dpr="1"] div div.data h1 {
+  font-size: 12px;
+}
+[data-dpr="2"] div div.data h1 {
+  font-size: 26px;
+}
+[data-dpr="3"] div div.data h1 {
+  font-size: 50px;
+}
+[data-dpr="1"] div div.data span {
+  font-size: 12px;
+}
+[data-dpr="2"] div div.data span {
+  font-size: 26px;
+}
+[data-dpr="3"] div div.data span {
+  font-size: 50px;
+}
+[data-dpr="1"] div div.pay h1 {
+  font-size: 12px;
+}
+[data-dpr="2"] div div.pay h1 {
+  font-size: 26px;
+}
+[data-dpr="3"] div div.pay h1 {
+  font-size: 50px;
+}
+[data-dpr="1"] div div.pay span {
+  font-size: 12px;
+}
+[data-dpr="2"] div div.pay span {
+  font-size: 26px;
+}
+[data-dpr="3"] div div.pay span {
+  font-size: 50px;
+}
+[data-dpr="1"] div div.info h1 {
+  font-size: 12px;
+}
+[data-dpr="2"] div div.info h1 {
+  font-size: 26px;
+}
+[data-dpr="3"] div div.info h1 {
+  font-size: 50px;
+}
+[data-dpr="1"] div div.info span {
+  font-size: 12px;
+}
+[data-dpr="2"] div div.info span {
+  font-size: 26px;
+}
+[data-dpr="3"] div div.info span {
+  font-size: 50px;
+}

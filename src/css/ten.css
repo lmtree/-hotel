@@ -1,0 +1,47 @@
+div.photo {
+  width: 100%;
+  height: 4.13333333rem;
+}
+div.photo img {
+  width: 10rem;
+  height: 4.13333333rem;
+}
+div.content {
+  background: white;
+}
+div.content ul.tt {
+  width: 9.5rem;
+  height: 5rem;
+}
+div.content ul.tt li.title {
+  margin-top: 0.3rem;
+}
+div.content ul.tt li.detail {
+  margin-top: 0.3rem;
+  color: grey;
+}
+div.content ul.tt li.call {
+  margin-top: 0.6rem;
+  color: grey;
+}
+div.content ul.tt li.call span {
+  display: block;
+}
+div.content li.title {
+  font-size: 18px;
+}
+[data-dpr="2"] div.content li.title {
+  font-size: 32px;
+}
+[data-dpr="3"] div.content li.title {
+  font-size: 56px;
+}
+div.content li.detail {
+  font-size: 12px;
+}
+[data-dpr="2"] div.content li.detail {
+  font-size: 24px;
+}
+[data-dpr="3"] div.content li.detail {
+  font-size: 46px;
+}

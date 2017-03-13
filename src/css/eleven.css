@@ -1,0 +1,91 @@
+div.thead {
+  background: white;
+  position: relative;
+  width: 100%;
+  height: 1rem;
+  border-bottom: 1px solid gray;
+}
+div.thead span {
+  display: block;
+  float: left;
+  width: 20%;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+}
+div.thead span:after {
+  content: '';
+  position: absolute;
+  top: 0.1rem;
+  width: 1px;
+  height: 0.8rem;
+  margin-left: 0.7rem;
+  background: gray;
+}
+div.thead span {
+  font-size: 16px;
+}
+[data-dpr="2"] div.thead span {
+  font-size: 28px;
+}
+[data-dpr="3"] div.thead span {
+  font-size: 56px;
+}
+div.tbody {
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid gray;
+}
+div.tbody div.left {
+  width: 3.33333333rem;
+  height: 3.33333333rem;
+}
+div.tbody div.left img {
+  width: 2.93333333rem;
+  height: 2.93333333rem;
+}
+div.tbody div.center {
+  height: 3.33333333rem;
+}
+div.tbody div.center p.title {
+  margin-top: 0.3rem;
+}
+div.tbody div.center span.detail {
+  display: block;
+  color: gray;
+  margin-top: 0.1rem;
+}
+div.tbody div.center span.cl {
+  color: red;
+}
+div.tbody div.center span.cl span.decl {
+  color: gray;
+  margin-left: 0.1rem;
+}
+div.tbody div.right {
+  width: 2rem;
+  height: 3.33333333rem;
+  line-height: 3.33333333rem;
+  text-align: center;
+}
+div.tbody div.right p {
+  color: #18be9a;
+}
+div.tbody span {
+  font-size: 12px;
+}
+[data-dpr="2"] div.tbody span {
+  font-size: 22px;
+}
+[data-dpr="3"] div.tbody span {
+  font-size: 46px;
+}
+div.tbody p {
+  font-size: 18px;
+}
+[data-dpr="2"] div.tbody p {
+  font-size: 30px;
+}
+[data-dpr="3"] div.tbody p {
+  font-size: 52px;
+}

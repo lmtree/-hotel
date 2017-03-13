@@ -1,0 +1,115 @@
+div.form {
+  margin: 0.8rem 0.2rem 0rem;
+}
+div.form div.list {
+  margin-top: 0.26666667rem;
+  height: 1.45333333rem;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+div.form div.list span {
+  display: block;
+  height: 0.69333333rem;
+  margin-top: 0.38rem;
+}
+div.form div.list span img {
+  width: 0.69333333rem;
+  height: 0.69333333rem;
+}
+div.form div.list span {
+  float: left;
+  display: block;
+  margin-left: 0.33333333rem;
+}
+div.form div.list span input {
+  background: #f2f2f3;
+  height: 0.69333333rem;
+  border: none;
+  line-height: 0.69333333rem;
+}
+div.form div.listinfo {
+  margin-top: 0.26666667rem;
+  height: 1.45333333rem;
+  width: 9.6rem;
+}
+div.form div.listinfo span.span1 {
+  width: 4.64rem;
+  border: 1px solid gray;
+  border-radius: 20px;
+  height: 1.45333333rem;
+  display: block;
+  float: left;
+}
+div.form div.listinfo span.span1 span {
+  margin-left: 25px;
+  display: block;
+  height: 0.69333333rem;
+  margin-top: 0.38rem;
+}
+div.form div.listinfo span.span1 span img {
+  width: 0.69333333rem;
+  height: 0.69333333rem;
+}
+div.form div.listinfo span.span1 span {
+  float: left;
+  display: block;
+}
+div.form div.listinfo span.span1 span input {
+  width: 200px;
+  background: #f2f2f3;
+  height: 0.69333333rem;
+  border: none;
+  line-height: 0.69333333rem;
+}
+div.form div.listinfo span.span2 {
+  height: 1.45333333rem;
+  width: 4.86rem;
+  float: right;
+  display: block;
+}
+div.form div.listinfo span.span2 button {
+  height: 1.45333333rem;
+  width: 4.53333333rem;
+  background: #25b390;
+  color: white;
+  border-radius: 0.26666667rem;
+}
+div.form div.button {
+  margin-top: 0.85333333rem;
+}
+div.form div.button button.submit {
+  width: 9.6rem;
+  height: 1.17333333rem;
+  background: #25b390;
+  color: white;
+  border-radius: 0.13333333rem;
+}
+div.form div.admit span.admit {
+  width: 9.6rem;
+  display: block;
+  height: 0.81333333rem;
+}
+div.form div.admit span.admit p.p1 {
+  line-height: 0.81333333rem;
+  float: left;
+  margin-left: 3.04rem;
+}
+div.form div.admit span.admit p.p2 {
+  line-height: 0.81333333rem;
+  float: left;
+  color: #25b390;
+}
+div.foot {
+  margin-top: 4rem;
+  color: #25b390;
+  text-align: center;
+}
+[data-dpr="2"] div.header span.right {
+  font-size: 40px;
+}
+[data-dpr="2"] div.form input {
+  font-size: 28px;
+}
+[data-dpr="2"] div.form button {
+  font-size: 30px;
+}

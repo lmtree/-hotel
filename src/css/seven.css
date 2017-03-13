@@ -1,0 +1,184 @@
+div.message {
+  width: 10rem;
+  height: 4rem;
+  background: white;
+}
+div.message h1 {
+  line-height: 1rem;
+  margin-left: 0.5rem;
+}
+div.message h2 {
+  color: #525252;
+  margin-left: 0.5rem;
+}
+div.message p {
+  margin-left: 0.5rem;
+  margin-top: 0.4rem;
+}
+div.message p .icon {
+  width: 2em;
+  height: 2em;
+  vertical-align: -0.3em;
+  fill: currentColor;
+  overflow: hidden;
+}
+div.message p span {
+  color: #ca4427;
+}
+[data-dpr="1"] div.message p {
+  font-size: 12px;
+}
+[data-dpr="2"] div.message p {
+  font-size: 24px;
+}
+[data-dpr="3"] div.message p {
+  font-size: 40px;
+}
+[data-dpr="1"] div.message h2 {
+  font-size: 12px;
+}
+[data-dpr="2"] div.message h2 {
+  font-size: 24px;
+}
+[data-dpr="3"] div.message h2 {
+  font-size: 40px;
+}
+[data-dpr="1"] div.message h1 {
+  font-size: 20px;
+}
+[data-dpr="2"] div.message h1 {
+  font-size: 30px;
+}
+[data-dpr="3"] div.message h1 {
+  font-size: 50px;
+}
+div.customer {
+  width: 10rem;
+  height: 4rem;
+  margin-top: 0.5rem;
+  background: white;
+}
+div.customer ul.one {
+  float: left;
+  margin-left: 0.5rem;
+}
+div.customer ul.one li {
+  line-height: 1rem;
+}
+div.customer ul.two {
+  float: right;
+  margin-right: 0.5rem;
+}
+div.customer ul.two li {
+  text-align: right;
+  line-height: 1rem;
+}
+div.customer ul.two li button {
+  width: 30px;
+  height: 30px;
+}
+[data-dpr="1"] div.customer ul.one li {
+  font-size: 14px;
+}
+[data-dpr="2"] div.customer ul.one li {
+  font-size: 26px;
+}
+[data-dpr="3"] div.customer ul.one li {
+  font-size: 50px;
+}
+[data-dpr="1"] div.customer ul.two li {
+  font-size: 12px;
+}
+[data-dpr="2"] div.customer ul.two li {
+  font-size: 24px;
+}
+[data-dpr="3"] div.customer ul.two li {
+  font-size: 48px;
+}
+[data-dpr="1"] div.customer ul.two li button {
+  font-size: 12px;
+}
+[data-dpr="2"] div.customer ul.two li button {
+  font-size: 24px;
+}
+[data-dpr="3"] div.customer ul.two li button {
+  font-size: 48px;
+}
+div.privilege {
+  width: 10rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  background: white;
+  line-height: 1rem;
+}
+div.privilege p {
+  margin-left: 0.5rem;
+}
+div.privilege p svg.icon {
+  color: #ca4427;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+div.privilege p span {
+  margin-left: 0.2rem;
+  color: #525252;
+}
+div.privilege p svg.icons {
+  color: #989899;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.3em;
+  fill: currentColor;
+  overflow: hidden;
+}
+[data-dpr="1"] div.privilege p.span {
+  font-size: 12px;
+}
+[data-dpr="2"] div.privilege p.span {
+  font-size: 24px;
+}
+[data-dpr="3"] div.privilege p.span {
+  font-size: 48px;
+}
+div.commit {
+  width: 10rem;
+  height: 1.5rem;
+  background: white;
+}
+div.commit p {
+  float: right;
+  line-height: 1.5rem;
+}
+div.commit p span {
+  color: #21b290;
+  margin-right: 0.5rem;
+}
+div.commit p button {
+  width: 4rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  color: white;
+  background: #ca4427;
+  float: right;
+}
+[data-dpr="1"] div.commit p {
+  font-size: 14px;
+}
+[data-dpr="2"] div.commit p {
+  font-size: 28px;
+}
+[data-dpr="3"] div.commit p {
+  font-size: 58px;
+}
+[data-dpr="1"] div.commit p span {
+  font-size: 16px;
+}
+[data-dpr="2"] div.commit p span {
+  font-size: 30px;
+}
+[data-dpr="3"] div.commit p span {
+  font-size: 60px;
+}

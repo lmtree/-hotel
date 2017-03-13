@@ -1,0 +1,29 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+}
+div.home div.header {
+    background: #af4327;
+    height:1.1666rem;}
+ div.home div.header span.left {
+    height: 1.1666rem;
+    float: left;
+    width: 1.1666rem;
+    display: block;}
+div.home div.header span.left img {
+    height: 1.1666rem;
+    width: 1.1666rem;
+}
+
+div.home div.header span.right {
+    height: 1.1666rem;
+    color: white;
+    text-align: center;
+    line-height:1.1666rem;
+    width: 8.94rem;;
+    display: block;
+}
+[data-dpr="2"] div.header span.right {
+    font-size: 40px;
+}

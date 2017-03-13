@@ -1,0 +1,122 @@
+div.classify {
+  height: 0.82666667rem;
+  background: white;
+}
+div.classify span.span1 {
+  width: 2rem;
+  float: left;
+  line-height: 0.82666667rem;
+  display: block;
+  text-align: center;
+}
+div.classify span.active {
+  border-bottom: solid #1abe99;
+}
+div.body {
+  margin-top: 0.42666667rem;
+  background: white;
+}
+div.body div.bodies {
+  width: 10rem;
+  height: 0.8rem;
+  border-bottom: 1px solid #cccccc;
+}
+div.body div.bodies span.img {
+  float: left;
+  width: 0.8rem;
+  height: 0.8rem;
+  display: block;
+}
+div.body div.bodies span.img img {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+div.body div.bodies span.head {
+  display: block;
+  background: white;
+  height: 0.8rem;
+  line-height: 0.8rem;
+}
+div.body div.bodies span.head span {
+  margin-left: 0.26666667rem;
+}
+div.body div.bodies span.head span.span1 {
+  margin-left: 3.6rem;
+  position: relative;
+}
+div.body div.bodies span.head span.span1:after {
+  content: '';
+  position: absolute;
+  top: 0.005rem;
+  width: 2px;
+  height: 0.5rem;
+  margin-left: 0.2rem;
+  background: #cccccc;
+}
+div.body div.main {
+  height: 5.25333333rem;
+  margin: 0 0.5rem;
+}
+div.body div.main div span.img {
+  width: 2.14666667rem;
+  height: 2.14666667rem;
+  display: block;
+}
+div.body div.main div span.img img {
+  width: 2.14666667rem;
+  height: 2.14666667rem;
+}
+div.body div.main div span.text {
+  width: 6rem;
+  margin: 0 0.2rem;
+}
+div.body div.main div span.text p.num {
+  margin-top: 0.13333333rem;
+  color: red;
+  float: left;
+}
+div.body div.main div span.text p.nor {
+  margin-top: 0.26666667rem;
+  margin-left: 0.13333333rem;
+  float: left;
+  text-decoration: line-through;
+}
+div.body div.main div span.text p.date {
+  margin-top: 0.13333333rem;
+  clear: left;
+  float: left;
+}
+div.body div.main div span.number {
+  width: 1.12rem;
+  height: 1rem;
+  float: right;
+  line-height: 1rem;
+  margin-left: -0.8rem;
+}
+[data-dpr="1"] div.classify {
+  font-size: 15px;
+}
+[data-dpr="2"] div.classify {
+  font-size: 25px;
+}
+[data-dpr="3"] div.classify {
+  font-size: 55px;
+}
+[data-dpr="1"] div.body span {
+  font-size: 12px;
+}
+[data-dpr="2"] div.body span {
+  font-size: 28px;
+}
+[data-dpr="3"] div.body span {
+  font-size: 55px;
+}
+[data-dpr="1"] div.body div.main {
+  font-size: 15px;
+}
+[data-dpr="2"] div.body div.main {
+  font-size: 25px;
+}
+[data-dpr="3"] div.body div.main {
+  font-size: 55px;
+}

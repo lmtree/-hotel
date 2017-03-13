@@ -1,0 +1,134 @@
+div.slide {
+  background: url("../images/seventeen/slide.gif") center;
+  height: 4.33333333rem;
+  background-size: cover;
+}
+div.state {
+  height: 1.34666667rem;
+  background: white;
+  line-height: 1.34666667rem;
+  text-align: center;
+}
+div.state img {
+  width: 0.42666667rem;
+  height: 0.42666667rem;
+}
+div.maininfo {
+  margin-top: 0.26666667rem;
+  background: white;
+}
+div.maininfo div.list {
+  margin: 0 0.3rem;
+  height: 1.2rem;
+  border-bottom: 1px solid gray;
+}
+div.maininfo div.list span.img {
+  display: block;
+  width: 0.61333333rem;
+  height: 0.61333333rem;
+}
+div.maininfo div.list span.img img {
+  width: 0.61333333rem;
+  height: 0.61333333rem;
+}
+div.maininfo div.list span.text {
+  width: 8.78666667rem;
+  height: 0.61333333rem;
+  display: block;
+  margin-left: 0.26666667rem;
+}
+div.maininfo div.list span.text span.head {
+  line-height: 0.61333333rem;
+}
+div.maininfo div.list span.text span.foot {
+  float: right;
+  line-height: 0.61333333rem;
+}
+div.maininfo div.listinfo {
+  border-bottom: none;
+}
+div.maininfo div.exit {
+  height: 1.46666667rem;
+  background: #f2f2f2;
+}
+div.maininfo div.exit div.content {
+  background: white;
+  height: 1.2rem;
+  margin-top: 0.26666667rem;
+}
+div.maininfo div.exit div.content div {
+  margin: 0 0.3rem ;
+  background: white;
+}
+div.maininfo div.exit div.content div span.img {
+  display: block;
+  width: 0.61333333rem;
+  height: 0.61333333rem;
+}
+div.maininfo div.exit div.content div span.img img {
+  width: 0.61333333rem;
+  height: 0.61333333rem;
+}
+div.maininfo div.exit div.content div span.text {
+  width: 8.38666667rem;
+  height: 0.61333333rem;
+  display: block;
+  margin-left: 0.26666667rem;
+}
+div.maininfo div.exit div.content div span.text span.head {
+  line-height: 0.61333333rem;
+}
+div.maininfo div.exit div.content div span.text span.foot {
+  float: right;
+  line-height: 0.61333333rem;
+}
+div.footer {
+  background: white;
+  height: 1.46666667rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+div.footer span.ff {
+  display: block;
+  height: 1.46666667rem;
+  text-align: center;
+  margin-top: 0.1rem;
+}
+div.footer span.ff span.active {
+  color: #c84624;
+}
+div.footer span.ff span {
+  display: block;
+}
+div.footer span.ff span img {
+  height: 0.66666667rem;
+  width: 0.66666667rem;
+}
+[data-dpr="1"] div.state {
+  font-size: 19px;
+}
+[data-dpr="2"] div.state {
+  font-size: 32px;
+}
+[data-dpr="3"] div.state {
+  font-size: 52px;
+}
+[data-dpr="1"] div.maininfo span.head {
+  font-size: 20px;
+}
+[data-dpr="2"] div.maininfo span.head {
+  font-size: 30px;
+}
+[data-dpr="3"] div.maininfo span.head {
+  font-size: 50px;
+}
+[data-dpr="1"] div.maininfo span.foot {
+  font-size: 13px;
+}
+[data-dpr="2"] div.maininfo span.foot {
+  font-size: 23px;
+}
+[data-dpr="3"] div.maininfo span.foot {
+  font-size: 43px;
+}

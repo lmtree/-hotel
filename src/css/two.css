@@ -1,0 +1,43 @@
+div.content {
+  margin-top: 2.86666667rem;
+}
+div.content ul.tt {
+  margin-left: 1.44rem;
+  width: 7.17333333rem;
+  height: 1.30666667rem;
+  border-radius: 9px;
+  border: 1px solid #25b390;
+}
+div.content ul.tt li img {
+  height: 0.93333333rem;
+  width: 0.93333333rem;
+}
+div.content ul.tt li.text {
+  margin-left: 0.6rem;
+  color: #25b390;
+}
+div.content ul.dl {
+  margin-top: 0.90666667rem;
+}
+div.content ul.dl li.index a {
+  color: #25b390;
+  text-decoration: none;
+}
+div.content li.text {
+  font-size: 20px;
+}
+[data-dpr="2"] div.content li.text {
+  font-size: 36px;
+}
+[data-dpr="3"] div.content li.text {
+  font-size: 60px;
+}
+div.content li.index a {
+  font-size: 14px;
+}
+[data-dpr="2"] div.content li.index a {
+  font-size: 26px;
+}
+[data-dpr="3"] div.content li.index a {
+  font-size: 48px;
+}

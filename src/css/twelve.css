@@ -1,0 +1,94 @@
+div.header {
+  height: 1.12rem;
+  background: #ca4427;
+}
+div.header div.kuang {
+  width: 9.2rem;
+  height: 0.8rem;
+  border: 1px solid gray;
+  border-radius: 6px;
+  background: white;
+}
+div.header div.kuang span.left {
+  width: 0.73333333rem;
+  height: 0.73333333rem;
+  display: block;
+  float: left;
+}
+div.header div.kuang span.left img {
+  width: 0.66666667rem;
+  height: 0.66666667rem;
+}
+div.header div.kuang span.title {
+  width: 8.4rem;
+  height: 0.8rem;
+  display: block;
+}
+div.header div.kuang span.title input {
+  width: 8.4rem;
+  height: 0.8rem;
+  border: none;
+}
+div.header span.title input {
+  font-size: 14px;
+}
+[data-dpr="2"] div.header span.title input {
+  font-size: 28px;
+}
+[data-dpr="3"] div.header span.title input {
+  font-size: 50px;
+}
+div.bodyer {
+  width: 9.5rem;
+  margin: 0.2rem 0.25rem;
+}
+div.bodyer div.tag {
+  width: 1rem;
+  height: 13rem;
+  text-align: center;
+  margin-top: 2rem;
+  float: right;
+}
+div.bodyer div.tag span {
+  display: block;
+  color: #31c19e;
+}
+div.bodyer div.content {
+  width: 8.5rem;
+}
+div.bodyer div.content span.nh {
+  margin-top: 0.2rem;
+  width: 8.5rem;
+  height: 0.6rem;
+  display: block;
+  float: left;
+}
+div.bodyer div.content span.city {
+  display: block;
+  float: left;
+  margin: 0.2rem 0.2rem;
+  width: 2.4rem;
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+  text-align: center;
+  background: white;
+  border-radius: 6px;
+}
+div.bodyer div.tag span {
+  font-size: 12px;
+}
+[data-dpr="2"] div.bodyer div.tag span {
+  font-size: 26px;
+}
+[data-dpr="3"] div.bodyer div.tag span {
+  font-size: 48px;
+}
+div.bodyer div.content span {
+  font-size: 16px;
+}
+[data-dpr="2"] div.bodyer div.content span {
+  font-size: 28px;
+}
+[data-dpr="3"] div.bodyer div.content span {
+  font-size: 54px;
+}

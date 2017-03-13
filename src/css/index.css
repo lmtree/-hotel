@@ -1,0 +1,57 @@
+div.home div.form {
+  margin: 0.83333333rem 0.2rem 0rem;
+}
+div.home div.form div.list {
+  margin-top: 0.27777778rem;
+  height: 1.51388889rem;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+div.home div.form div.list span {
+  display: block;
+  height: 0.72222222rem;
+  margin-top: 0.39583333rem;
+}
+div.home div.form div.list span img {
+  width: 0.72222222rem;
+  height: 0.72222222rem;
+}
+div.home div.form div.list span {
+  height: 0.72222222rem;
+  display: block;
+}
+div.home div.form div.list span input {
+  width: 4.86111111rem;
+  background: #f2f2f3;
+  border: none;
+  line-height: 0.72222222rem;
+}
+div.home div.form div.list span {
+  float: left;
+  display: block;
+}
+div.home div.form div.list span button {
+  width: 3.47222222rem;
+  height: 0.97222222rem;
+  margin-top: -0.13888889rem;
+  background: #25b390;
+  color: white;
+  float: left;
+  border-radius: 0.13888889rem;
+}
+div.home div.form div.button {
+  margin-top: 0.88888889rem;
+}
+div.home div.form div.button button.submit {
+  width: 9.6rem;
+  height: 1.22222222rem;
+  background: #25b390;
+  color: white;
+  border-radius: 0.27777778rem;
+}
+[data-dpr="2"] div.form input {
+  font-size: 28px;
+}
+[data-dpr="2"] div.form button {
+  font-size: 32px;
+}
